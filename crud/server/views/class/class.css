@@ -1,0 +1,46 @@
+#container{
+    text-align: center;
+   
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 236, 127) ;;
+}
+button{
+    border-radius: 15px;
+    border:none;
+    padding: 15px;
+    font-size: large;
+    
+}
+nav{
+    text-align: center;
+    position: relative;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+}
+/* nav a {
+    text-decoration: wavy;
+    padding: 10px;
+    color: rgb(122, 122, 122);
+   
+} */
+#studDiv{
+    display: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 236, 127);
+ 
+}
+header{
+ margin-bottom: 50px;
+ margin-top: 20px;
+ 
+}

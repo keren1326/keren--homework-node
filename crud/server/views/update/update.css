@@ -1,0 +1,30 @@
+nav {
+    text-align: center;
+    position: relative;
+  
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#container{
+    text-align: center;
+   
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 236, 127) ;
+    text-align: center;
+}
+form{
+   
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.btn{
+    margin: 15px;
+}
+#msg{
+    text-align: center;
+}
