@@ -1,0 +1,15 @@
+{
+  "name": "nationality",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "quotebook-api": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keren b",
+  "license": "ISC",
+  "description": ""
+}
