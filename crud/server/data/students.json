@@ -1,1 +1,1 @@
-[{"id":1,"name":"keren","age":24,"gradeAvg":75},{"id":2,"name":"sarah","age":26,"gradeAvg":70},{"id":"3","name":"keren","age":"24","gradeAvg":"85"},{"id":"4","name":"david","age":"35","gradeAvg":"65"},{"id":"5","name":"laura","age":"25","gradeAvg":"75"}]
+[{"id":1,"name":"keren","age":24,"gradeAvg":75},{"id":2,"name":"sarah","age":26,"gradeAvg":70},{"id":"3","name":"keren","age":"24","gradeAvg":"85"},{"id":"4","name":"david","age":"35","gradeAvg":"65"},{"id":"5","name":"laura","age":"25","gradeAvg":"75"},{"id":"6","name":"henny","age":"31","gradeAvg":"56"}]

@@ -22,31 +22,31 @@ const server =http.createServer(async(req,res)=>{
             break;
          
         case "/addStudent":
-            fs.createReadStream("./views/addStudents/addStudent.html").pipe(res)
+            fs.createReadStream(viewsDir+"/addStudents/addStudent.html").pipe(res)
             break;
         case "/addStudent.css":
-              fs.createReadStream("./views/addStudents/addStudent.css").pipe(res)
+              fs.createReadStream(viewsDir+"/addStudents/addStudent.css").pipe(res)
               break;
         case "/addStudent.js":
-            fs.createReadStream("./views/addStudents/addStudent.js").pipe(res)
+            fs.createReadStream(viewsDir+"/addStudents/addStudent.js").pipe(res)
           break;
         case "/deleteStudent":
-            fs.createReadStream("./views/deleteStudent/deleteStudent.html").pipe(res)
+            fs.createReadStream(viewsDir+"/deleteStudent/deleteStudent.html").pipe(res)
           break;
         case "/deleteStudent.js":
-            fs.createReadStream("./views/deleteStudent/deleteStudent.js").pipe(res)
+            fs.createReadStream(viewsDir+"/deleteStudent/deleteStudent.js").pipe(res)
           break;
         case "/deleteStudent.css":
-            fs.createReadStream("./views/deleteStudent/deleteStudent.css").pipe(res)
+            fs.createReadStream(viewsDir+"/deleteStudent/deleteStudent.css").pipe(res)
           break;
         case "/update":
-            fs.createReadStream("./views/update/update.html").pipe(res)
+            fs.createReadStream(viewsDir+"/update/update.html").pipe(res)
           break;
         case "/updateStudent.js":
-            fs.createReadStream("./views/update/updateStudent.js").pipe(res)
+            fs.createReadStream(viewsDir+"/update/updateStudent.js").pipe(res)
           break;
         case "/update.css":
-            fs.createReadStream("./views/update/update.css").pipe(res)
+            fs.createReadStream(viewsDir+"/update/update.css").pipe(res)
           break;
         case "/api/students":
             switch (method) {
