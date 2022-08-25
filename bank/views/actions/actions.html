@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/signup">SignUp</a>
+        <a href="/login">Login</a>
+        <a href="/actions">Actions</a>
+    </nav>
+    <h1>Actions</h1>
+
+<form action="" id="addForm">
+    <label for="amount">Amount</label>
+    <input type="text" name="amount">
+    <button id="addMoneyBtn" type="submit">Add money</button>
+</form>
+<div id="addMoneyResult"></div>
+
+
+<form action="" id="takeMoneyForm">
+    <label for="amount">Amount</label>
+    <input type="text" name="amount">
+    <button id="takeOutMoneyBtn" type="submit">Take Out money</button>
+
+</form>
+<div id="takeOutResult"></div>
+
+<form action="" id="deleteForm">
+    <label for="authentification">Authentification code </label>
+    <input type="text" name="authentification">
+    <button id="deleteBtn" type="submit">Delete Account</button>
+
+</form>
+<div id="deleteAccount"></div>
+
+<button id="showBtn">Show Amount</button>
+<div id="showAmount"></div>
+
+
+<script src="actions.js"></script>
+</body>
+</html>
