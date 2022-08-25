@@ -4,7 +4,6 @@ const SECRET="my secret";
 
 function createToken(username){
  const token = jwt.sign({msg:'hi token',username:username},SECRET,{expiresIn:"1h"})
-console.log(jwt.sign({msg:'hi token'},SECRET))
 
 return token
 

@@ -11,7 +11,6 @@ const SECRET="my secret";
 
     for (let i = 0; i < currentuser.length; i++) {
         const element = currentuser[i];
-        console.log("element", element)
   if(decodedToken.username===element.username){
     
     const newAmount= element.amount +=parseInt(userObj.amount)  ;

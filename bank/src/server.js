@@ -35,6 +35,7 @@ app.get("/signup",(req,res)=>{
 app.post('/api/signup',(req,res)=>{
     const userObj=req.body
 signup.signUp(userObj)
+res.send({msg:"sign up successful"})
 })
 app.post('/api/login',async(req,res)=>{
 const userObj=req.body;

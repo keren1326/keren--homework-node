@@ -14,7 +14,6 @@ const bcrypt=require('bcrypt');
         const element = currentuser[i];
   if(decodedToken.username===element.username){
     const compare= await bcrypt.compare(userObj.authentification,element.confirmation);
-    console.log("compare", compare)
     if(compare){ 
       
   

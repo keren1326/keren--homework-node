@@ -11,7 +11,6 @@ for (let i = 0; i < currentUser.length; i++) {
         const compare= await bcrypt.compare(userObj.password,element.password);
            
             if(compare){
-                console.log("compare", compare)
                 return true
             }
            

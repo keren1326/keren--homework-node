@@ -8,7 +8,6 @@ var amount=0;
  async function signUp(userObj){
 
 const currentUser=JSON.parse(fs.readFileSync(dataDir+'/users.json'))
-console.log("currentUser", currentUser);
 const plainPassword=userObj.password;
 const plainConfCode=userObj.confirmation;
 
@@ -24,7 +23,6 @@ currentUser.push(userObj);
 
 fs.writeFileSync(dataDir+"/users.json", JSON.stringify(currentUser))
 
-console.log("currentUser", currentUser)
 return
 
 
